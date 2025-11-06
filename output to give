@@ -1,0 +1,44 @@
+Json text to js
+input:{"name": "Alice", "age": 25, "city": "London"}
+output:{
+  "name": "Alice",
+  "age": 25,
+  "city": "London"
+}
+
+JSON date text to js date object
+input:{"date": "2023-10-01"}
+output:Date Object: Sun Oct 01 2023 05:30:00 GMT+0530 (India Standard Time)
+
+Convert JSON to CSV 
+input:[
+  {"name": "Alice", "age": 25},
+  {"name": "Bob", "age": 30}
+]
+output:name,age
+Alice,25
+Bob,30
+
+Convert CSV to JSON
+Input:name,age
+Alice,25
+Bob,30
+
+Output:
+[
+  {
+    "name": "Alice",
+    "age": "25"
+  },
+  {
+    "name": "Bob",
+    "age": "30"
+  },
+  {
+    "name": ""
+  }
+]
+
+Creae hash from string
+input:Hello World
+Output:Hash: a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e
